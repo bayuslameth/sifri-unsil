@@ -393,10 +393,6 @@
 		document.getElementById("year").innerHTML = new Date().getFullYear(); 
 	} catch (err) {}
 
-    // Buy Now Btn
-	$('body').append("<a href='https://1.envato.market/OR3rnQ' target='_blank' class='buy-now-btn'><img src='assets/images/envato.png' alt='envato'/>Buy Now</a>");
-
-    // Switch Btn
 	$('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
 
 })(jQuery);
